@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-int main() {
-    float num1, num2, num3, num4, produto;
-    printf("Digite quatro números para obter o produto entre eles: \n");
-    scanf("%f%f%f%f", &num1, &num2, &num3, &num4);
-    produto = num1 * num2 * num3 * num4;
-    printf("O produto dos quatro números %.2f, %.2f, %.2f e %.2f é %.2f\n", num1, num2, num3, num4, produto);
+int main(){
+    float a, b, c, d, produto;
+    printf("Digite quatro números para obeter o produto entre eles: \n");
+    scanf("%f%f%f%f", &a, &b, &c, &d);
+    produto = (a *b *c * d);
+    printf("O produto entre %f, %f, %f, %f é %f", a, b, c ,d ,produto);
     return 0;
-}
+};
